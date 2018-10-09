@@ -1,0 +1,147 @@
+.index-page .last-right {
+  width: calc(80%);
+}
+.index-page .last-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.index-page h5 {
+  font-size: 15px;
+  color: #474747;
+  text-align: left;
+  font-weight: bold;
+}
+.index-page .last-item {
+  display: flex;
+  justify-content: flex-start;
+  height: 100px;
+}
+.index-page .avatar {
+  font-size: 20px;
+  color: #7f7584;
+  min-width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.index-page .avatar-one {
+  background-color: #79f2ab;
+}
+.index-page .avatar-two {
+  background-color: #d078f2;
+}
+.index-page .avatar-three {
+  background-color: #f0f279;
+}
+.index-page .last .last-card {
+  margin-right: 3px;
+  height: 180px;
+}
+.index-page .tag {
+  display: flex;
+  justify-content: flex-start;
+  color: #999;
+}
+.index-page .tag > span {
+  margin-right: 10px;
+  font-size: 13px;
+}
+.index-page .card {
+  margin-bottom: 20px;
+}
+.index-page .card-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.index-page .card-item .icon {
+  font-size: 54px;
+}
+.index-page .card-item .card-right {
+  margin-left: 20px;
+}
+.index-page .card-item .number {
+  color: #666;
+  line-height: 32px;
+  font-size: 24px;
+  height: 32px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.index-page .card-chart {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+.index-page .card-chart .title {
+  text-align: center;
+}
+.index-page .pro {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.index-page .pro p {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.index-page .pro #pro1 .ant-progress-circle-path {
+  stroke: red;
+  opacity: .6;
+}
+.index-page .pro #pro2 .ant-progress-circle-path {
+  stroke: blue;
+  opacity: .6;
+}
+.index-page .pro #pro3 .ant-progress-circle-path {
+  stroke: purple;
+  opacity: .6;
+}
+.index-page .timeline {
+  margin-right: 20px;
+  padding-bottom: 22px;
+}
+.index-page .timeline .timeItem {
+  line-height: 25px;
+}
+.index-page .collapse {
+  margin-right: 20px;
+}
+.index-page .collapse .ant-collapse {
+  background: #fff;
+  border: 0;
+}
+.index-page .collapse .ant-collapse .ant-collapse-item {
+  margin-bottom: 15px;
+}
+.index-page .collapse .ant-collapse .ant-collapse-item .ant-collapse-header {
+  color: #fff;
+  background: lightcoral;
+  letter-spacing: 5px;
+}
+.index-page .collapse .ant-collapse .ant-collapse-item .ant-collapse-header .arrow {
+  letter-spacing: 0;
+  color: #fff;
+}
+.index-page .collapse .ant-collapse .ant-collapse-item .ant-collapse-content {
+  padding: 5px 20px;
+}
+.index-page .collapse .ant-collapse .ant-collapse-item .ant-collapse-content p {
+  line-height: 25px;
+}
+.index-page .collapse .ant-collapse .ant-collapse-item .ant-collapse-content .author {
+  text-align: right;
+}
+.test {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 50%);
+}
